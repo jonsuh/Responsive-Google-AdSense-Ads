@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+<title>Demo: Responsive Google AdSense Ads - Jonathan Suh, Web Designer and Developer</title>
+<style type="text/css">
+/*
+ * Responsive Google AdSense Ads
+ * http://www.jonsuh.com
+ *
+ * Copyright (c) 2012 Jonathan Suh
+ * Free to use under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+
+body {font-family: Helvetica, Arial, sans-serif; font-size: 13px}
+</style>
+<link type="text/css" rel="stylesheet" href="js-gads.css" media="screen" />
+</head>
+<body>
+<p><b>Responsive Google AdSense Ads</b></p>
+<div class="js-gads">
+  <script type="text/javascript"><!--
+    google_ad_client = "ca-pub-8611658640634958";
+    if (window.innerWidth <= 350) {
+      google_ad_slot = "4866567429";
+      google_ad_width = 320;
+      google_ad_height = 50;
+    } else if (window.innerWidth >= 750) {
+      google_ad_slot = "2401135947";
+      google_ad_width = 728;
+      google_ad_height = 90;
+    } else {
+      google_ad_slot = "9441222676";
+      google_ad_width = 468;
+      google_ad_height = 60;
+    }
+  //--></script>
+  <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+</div>
+<p><a href="http://www.jonsuh.com/blog/tutorials/responsive-google-adsense-ads">Blog article with tutorial and documentation &rarr;</a></p>
+<p><small>&copy; 2012 Jonathan Suh. <a href="http://www.jonsuh.com" title="Jonathan Suh, Web Designer and Developer">www.jonsuh.com</a></small></p>
+</body>
+</html>
